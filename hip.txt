@@ -15,3 +15,5 @@ automatically (so you don't have to cd /blah/blah/blah every time you open it). 
  the startup directory is Bitbust directory in C drive, so I must change the working directory with cd command.
  But I think it is an unnecessary process. I want the startup directory to be my working directory where Git Bash is started.
  
+ 
+ Just moto modify files
