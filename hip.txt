@@ -1,0 +1,17 @@
+How do I change the default location for Git Bash on Windows , Right click on Git Bash shortcut and then go to properties . 
+In properties inside start in option add the location of the directory you want to start Git Bash in and apply the changes. 
+The working solution listed are great, but the problem occurs when you want multiple default home for your git-bash. 
+A simple workaround is to start git-bash using bat script.
+ git-bash-to-htdocs.bat cd C:\xampp\htdocs "C:\Program Files\Git\git-bash.exe" 
+ The above of course assume git-bash is installed at C:\Program Files\Git\git-bash.exe
+
+Changing default locations on Git Bash, In my case I had to take the following steps to change the default startup 
+directory of the Git Bash in Windows: 1) Right click on the Git Bash icon  Back to the intuitive easy to learn Git Bash..
+ By default Git wants to use your user directory as its home directory. This is where it wants to put all its configuration 
+ files and repositories; it is the default location that is opened when you start Git Bash.
+
+Change Default Directory for User on a Linux System, Here is a quick tip to make Git Bash change its home directory 
+automatically (so you don't have to cd /blah/blah/blah every time you open it). When I start Git Bash,
+ the startup directory is Bitbust directory in C drive, so I must change the working directory with cd command.
+ But I think it is an unnecessary process. I want the startup directory to be my working directory where Git Bash is started.
+ 
