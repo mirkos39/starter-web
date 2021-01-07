@@ -16,4 +16,6 @@ automatically (so you don't have to cd /blah/blah/blah every time you open it). 
  But I think it is an unnecessary process. I want the startup directory to be my working directory where Git Bash is started.
  
  
- Just moto modify files
+ Just to modify files
+ 
+ alias npp='notepad++.exe -multiInst -nosession'
